@@ -13,6 +13,7 @@ header {
     height: 100vh;
     background-image: url('../img/background-header.jpg');
     background-size: cover;
+    font-family: 'K2D';
     background-repeat: no-repeat;
 }
 
