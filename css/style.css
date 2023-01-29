@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&family=Oswald:wght@300&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background-image: url('../img/background-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .greeting {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+    top: 40%;
+    margin: 0 auto;
+    border-right: 1px solid rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 6.5rem;
+}
+
+header .front-end {
+    font-size: 1em;
+    color: white;
+    opacity: 0.8;
+    margin-left: calc(2rem + 1vw);
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    top: 20%;
+}
+
+header .fa-bars {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+.anim-typewriter {
+    animation: typewriter 1s steps(44) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 6.5em;
+    }
+}
